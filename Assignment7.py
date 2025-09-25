@@ -7,4 +7,3 @@ def sum_list():
     sum_of_list = sum(num1_list)
     return sum_of_list
 print(sum_list())
-print("thanks for commiting the code and pushing into the github")
