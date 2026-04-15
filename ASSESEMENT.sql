@@ -202,3 +202,5 @@ select * from  shk.orders where Amt >= 2000;
 select COUNT(city) from salesperson where city = "newyork";
 select * from  shk.salesperson where city in ("london" ,"paris");
 select Onum, Odate from shk.orders;
+
+select * from salesperson;
