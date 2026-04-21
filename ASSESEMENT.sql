@@ -203,4 +203,4 @@ select COUNT(city) from salesperson where city = "newyork";
 select * from  shk.salesperson where city in ("london" ,"paris");
 select Onum, Odate from shk.orders;
 
-select * from salesperson;
+select * from salesperson;git status

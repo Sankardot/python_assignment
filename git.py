@@ -7,4 +7,4 @@
 #git status 
 #git push
 
-#Thanks for everything i have learned all the  the basic commands in the git 
+#Thanks for everything i have learned all the  the basic commands in the git ####
