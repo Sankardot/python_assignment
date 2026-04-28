@@ -8,3 +8,5 @@
 #git push
 
 #Thanks for everything i have learned all the  the basic commands in the git ####
+
+# i have started again revising pyhton 
