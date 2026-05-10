@@ -13,3 +13,6 @@
 
 
 #if one day i have skipped the this series i for got everything why ?
+
+
+#started agin with new mind set 
