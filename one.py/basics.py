@@ -153,7 +153,7 @@
 
 
 # condtional statemts are alsi called decison making statments 
-# we use those statments while we  want to excutte a block of code while the given is true 
+# we use those statments while we  want to excutte a block of code while the given is condition is true 
 
 
 # num1 = int(input("enter the  first number:" ))
@@ -180,7 +180,28 @@
 # while i < 10:
 #     print(i)
 #     i+=1
-    
+
+
+# a = 12
+# while a < 34:
+#     print(a)
+#     a+=1
+
+
+
+# i = 6
+# while i <=95:
+#     if i ==13:
+#         print("three")
+#     else:
+#         print(i)
+#     i +=1
+
+
+
+
+
+
 # for loop this type of loop executtes a code  block multiples time s abbrevites the code that manages the loop varible
 
 # in foor loop each and every element will be looped and it will be eneded at data ends 
@@ -205,3 +226,102 @@
 
 # for i in range(0,11,2):
 #     print(i)
+
+
+
+# transfer statemnts:  are also know as jumping statments 
+# # continue , pass, break 
+# are used to control the flow of program by jumping from one part of the code to another escpecially inside loop 
+ 
+# exit loop earlu 
+# skip the iteration do nothing is called a place holder 
+
+# break , continue , pass 
+
+
+# break : exits the loop immediately when you want stop a loop 
+
+# for i in range(1,6):
+#     if i == 3:
+#         break
+#     print(i)
+   
+   
+
+# continue : skips to the text iteration  when u want to skip onw ture 
+
+# for i in range(1,6):
+#     if i == 3:
+#         continue
+#     print(i)
+    
+# pass:does nothing pit is place holder use it when code is needed syntatically but not yet written 
+
+
+# range function : it is used to genate the sequence of number
+
+# it is used often used with loop especially for  loops 
+
+# syntax(start, stop, step)
+
+
+
+# indexing : means acces elements from a sequnec like string list tuple using their positions number
+
+# they are divide into postive an negativ
+
+
+
+# postive indexing: starts from 0  and it is called a forword indexing 
+
+
+# data = ['a', 'b', 'c', 'd']
+# print(data[0])
+# print(data[2])
+
+
+
+# #negative ondexing : it starts from -1 it is called negative indexing  back word indexing 
+# data = ['a', 'b', 'c', 'd']
+# print(data[-1])
+# print(data[-2])
+
+
+
+# concatenation: joining the sequence like string list tuole togetgher is  called concatenation using + operator 
+
+# a = [1,2]
+# b = [2,3]
+# print(a+b)
+
+
+
+# slicing is list methos 
+# it is technique to extract a subpart  from the sequence like a list string , tuple 
+
+
+# n = [10, 20, 30 ,40, 50]
+# print(n[1:4])
+
+
+
+
+# match cases inpyhton used fro multiple condtion checking 
+# it is similar to switch case in one another programming language 
+
+#  match ----> cheacks the value 
+#  case ----->conditions
+#  _  -----> deffault value 
+ 
+ 
+ 
+# day = 0
+# match day:
+#     case 1:
+#         print("mOnday")
+#     case 2:
+#         print("tuesday")
+#     case 3:
+#         print("wed")
+#     case _:
+#         print("Invalid")
