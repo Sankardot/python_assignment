@@ -325,3 +325,59 @@
 #         print("wed")
 #     case _:
 #         print("Invalid")
+
+
+#list compareshion is method of creating short and simple way to creata a list using single line code 
+
+# sqaure =[x*x for x in range(1,5)]
+# print(sqaure)
+
+
+
+
+
+
+
+# list is mutable it has methods of 12 methods tha
+# they are 
+
+
+# list  has 12 methods 
+
+# append : add the element in list at the end 
+
+# extend : adds the multiple item 
+
+# insert add specific position 
+
+# remove : removes specific values
+
+# pop: removes using Index
+
+# clear:
+#     removes all the item 
+    
+# index: finds index value 
+
+# count:count occurence
+
+# sort : sort the list 
+
+# reverse: reverse the lisst 
+
+# copy :copy the list 
+
+
+
+
+
+
+# tuple is collection of elements sepated by comma and enclosed the parenthesis it is immutable 
+#count()
+#index()
+
+# mutable: it can be changed after creation 
+# dictnary, list , set 
+
+# immutable is can be changed after the creation 
+# int, float, string, complex, boolean 
