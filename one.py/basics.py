@@ -381,3 +381,159 @@
 
 # immutable is can be changed after the creation 
 # int, float, string, complex, boolean 
+
+
+
+
+# Data Type	Approximate Number of Methods
+
+
+
+# List	 11
+
+
+# Tuple	2
+
+
+
+# Set	17
+
+
+
+# Dictionary	11
+
+
+
+
+# String	45+
+
+
+
+# LIST ALLOWS DUPLICATES 
+
+# TUPLE ALLOWS DUPLICATS 
+
+
+# STRING ALLOWS DUPLICATES 
+
+
+# SET NOT ALLOW DUPLICATES IT REMOVES THE DUPICATES 
+
+
+# DICTONARY 
+
+# KEYS DOESNOT ALLOW DUPLICATES
+
+# VALUES CAN ALLOW DUPLICATES 
+
+
+
+
+
+
+
+
+
+# HOMOGENOUS : IT ALL THE ELEMENTS ARE SAME 
+
+# HETROGENOUS : ALL THE ELEMENTS ARE HETRO GENOUS
+
+
+# set: is unorder list it is mutable data type it is defined with curely bracles and it doesnot allow duplicates 
+
+# it has 17 built in methods 
+
+
+# s = {1,3,4}
+# # s.add(9)
+# # print(s)
+# # ----add the element to the set ONLY ONE 
+
+
+
+# s.update([4, 5])
+# print(s)----------------------ADDS A MULTIPLE ELEMENT 
+
+
+# s={1,2,4,19}
+# s.remove(8)
+# print(s) ----------------if suppose the key balue is not present in the set it will give key error 
+
+# s={1,2,4,19}
+# s.discard(10)  # no error if the value is also not present it not give error 
+
+
+
+
+# s={1,2,4,19}
+# s.pop()
+# print(s)---------------------------remove the first eleemnt from the set 
+
+
+
+# s={1,2,4,19}
+# s.clear()
+# # print(s)---------------------------------REMOVE ALL THE ELEMENTS FROM THE LIST 
+
+
+
+
+
+# set operators
+
+# Method	Meaning	Symbol
+
+# union()	Combine all unique elements	`
+
+
+# intersection()	Common elements	&
+
+
+# difference()	Present in first only	-
+
+
+# symmetric_difference()	Not common in both	^
+
+
+
+
+# a = {1, 2, 3}
+# b = {2, 3, 4}
+
+# # union() -> Combines all unique elements
+# print("Union:")
+# print(a.union(b))
+# print(a | b)
+
+# # intersection() -> Common elements
+# print("\nIntersection:")
+# print(a.intersection(b))
+# print(a & b)
+
+# # difference() -> Elements in first set only
+# print("\nDifference:")
+# print(a.difference(b))
+# print(a - b)
+
+# # symmetric_difference() -> Not common in both
+# print("\nSymmetric Difference:")
+# print(a.symmetric_difference(b))
+# print(a ^ b)
+
+
+
+a = {1, 2}
+b = {1, 2, 3, 4}
+c = {5, 6}
+
+# issubset() -> Checks whether all elements of a are in b
+print("Subset:")
+print(a.issubset(b))   # True
+
+# issuperset() -> Checks whether b contains all elements of a
+print("\nSuperset:")
+print(b.issuperset(a))   # True
+
+# isdisjoint() -> Checks whether sets have no common elements
+print("\nDisjoint:")
+print(a.isdisjoint(c))   # True

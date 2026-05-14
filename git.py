@@ -17,9 +17,3 @@
 
 #started agin with new mind set started agian yaah!
 
-
-#list compareshion is method of creating short and simple way to creata a list using single line code 
-
-
-sqaure =[x*x for x in range(1,5)]
-print(sqaure)
