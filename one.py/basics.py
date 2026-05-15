@@ -537,3 +537,64 @@
 # # isdisjoint() -> Checks whether sets have no common elements
 # print("\nDisjoint:")
 # print(a.isdisjoint(c))   # True
+
+
+
+
+
+
+
+
+
+
+
+# list is mutable and it is defined with []
+# it has 12 methods and 
+# it is order collection 
+# it allows duplicatews and we can perform indexing 
+
+
+
+
+
+# list compareshesion : method of creating   list compreshion is a short and simple way to create a list using a single line of code 
+
+# square =[X * X for X in range(1,5)]
+# print(square)
+
+
+# square =[]
+# for x in range(1,5):
+#     square.append(x*x)
+# print(square)
+
+
+# by using list compareshesion is short and simple way to create a list using a single line of code 
+
+
+
+# tuple is collection os elements separted by comma and enclose with parenthesis 
+# it is immutable and and it has 2 methods and 
+# we can perforn indexing and it aloows duplicates 
+#it is oorder collection 
+##it is faster than list 
+
+
+# s = (1,23,3)
+# print(type(s))
+# print(s)
+
+
+
+# set is mutbale and it defined {} curely bracles and it is unorder list 
+# it doesnot accpet  duplicated values 
+# we cant perform indexing 
+
+# but we can perform a concatention in the set with union operator 
+# set has 17 built in methods in python 
+
+
+#s = {1,2,2,3}          -----> removes the dupicates from the set
+print(id(s))
+print(type(s))
+print(s)
