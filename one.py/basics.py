@@ -389,7 +389,7 @@
 
 
 
-# List	 11
+# List	 12 
 
 
 # Tuple	2
@@ -594,7 +594,19 @@
 # set has 17 built in methods in python 
 
 
-#s = {1,2,2,3}          -----> removes the dupicates from the set
-print(id(s))
-print(type(s))
-print(s)
+# #s = {1,2,2,3}          -----> removes the dupicates from the set
+# print(id(s))
+# print(type(s))
+# print(s)
+
+
+
+
+# dictonary is  mutable and it is defined with {} curely bracles and 
+# it is order list 
+# w can perform a indexing by accesing the keys in dictonary 
+# if we  want  to acces the value we need acces the key first 
+
+# dict keys can be immutable 
+
+# dict values can be mutable , immutable 
