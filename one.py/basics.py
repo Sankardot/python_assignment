@@ -522,18 +522,18 @@
 
 
 
-a = {1, 2}
-b = {1, 2, 3, 4}
-c = {5, 6}
+# a = {1, 2}
+# b = {1, 2, 3, 4}
+# c = {5, 6}
 
-# issubset() -> Checks whether all elements of a are in b
-print("Subset:")
-print(a.issubset(b))   # True
+# # issubset() -> Checks whether all elements of a are in b
+# print("Subset:")
+# print(a.issubset(b))   # True
 
-# issuperset() -> Checks whether b contains all elements of a
-print("\nSuperset:")
-print(b.issuperset(a))   # True
+# # issuperset() -> Checks whether  one contains all elements of another elements 
+# print("\nSuperset:")
+# print(b.issuperset(a))   # True
 
-# isdisjoint() -> Checks whether sets have no common elements
-print("\nDisjoint:")
-print(a.isdisjoint(c))   # True
+# # isdisjoint() -> Checks whether sets have no common elements
+# print("\nDisjoint:")
+# print(a.isdisjoint(c))   # True
