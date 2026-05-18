@@ -58,6 +58,12 @@
 # we cant print  multiple variables with one value 
 
 
+
+
+#A function in Python is a block of code that performs a specific task and can be reused whenever needed.
+
+#Instead of writing the same code again and again, you put it inside a function and call it whenever you want.
+
 # function :block of codde is called as a function 
 
 # module:collection of function is called a module 
@@ -248,17 +254,17 @@
    
    
 
-# continue : skips to the text iteration  when u want to skip onw ture 
+# continue : skips to the Next iteration  when u want to skip onw ture 
 
 # for i in range(1,6):
 #     if i == 3:
 #         continue
 #     print(i)
     
-# pass:does nothing pit is place holder use it when code is needed syntatically but not yet written 
+# pass:does nothing IT is place holder use it when code is needed syntatically but not yet written 
 
 
-# range function : it is used to genate the sequence of number
+# range function : it is used to genrate the sequence of number
 
 # it is used often used with loop especially for  loops 
 
@@ -609,4 +615,4 @@
 
 # dict keys can be immutable 
 
-# dict values can be mutable , immutable 
+# dict values can be mutable , immutable   
