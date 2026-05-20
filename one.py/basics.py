@@ -10,9 +10,12 @@
 # # programiing = plan 
 # # coding = implementation 
 
+#“Python is mainly called an interpreted language because execution happens through the Python interpreter. 
+#But before execution, Python source code is compiled into bytecode.”
+
 
 # # python is high level programming language 
-
+#“Python is an interpreted language, but internally it also uses compilation.”
 
 # complier converts the high level programming language to low level programming langugae such as machine code 
 
@@ -616,3 +619,10 @@
 # dict keys can be immutable 
 
 # dict values can be mutable , immutable   
+
+
+
+
+
+
+identifers
