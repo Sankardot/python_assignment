@@ -63,6 +63,23 @@
 
 
 
+#identifiers : “Identifiers are user-defined names given to variables, functions, classes, and objects in Python.”
+
+# #rules:
+# Can contain letters, numbers, _
+# Cannot start with number
+# Cannot use keywords like class, for, if
+# Case-sensitive- upper case and lower case 
+
+
+
+
+
+
+
+
+
+
 #A function in Python is a block of code that performs a specific task and can be reused whenever needed.
 
 #Instead of writing the same code again and again, you put it inside a function and call it whenever you want.
@@ -137,6 +154,21 @@
 
 
 
+# Garbage Collection in Python, you can explain like this:
+
+# “Garbage collection in Python is the process of automatically freeing memory by removing unused objects.”
+
+# Simple explanation:
+
+# When an object is no longer used in the program, Python automatically deletes it and releases memory.
+# This helps in memory management.
+
+
+
+
+
+
+
 # #inputfunction : the inputfunction is used to take the input from user during the exccution 
 # a=input("enter the name: ")
 # print(a)
@@ -182,7 +214,7 @@
 
 
 # while loop:
-#     repeats ststemts or group of statments while given condition is true it tests the conditon before execting the loop boody 
+#     “A while loop is used to execute a block of code repeatedly as long as a condition is true.” 
 
 
 # i = 1
@@ -211,7 +243,8 @@
 
 
 
-# for loop this type of loop executtes a code  block multiples time s abbrevites the code that manages the loop varible
+# for loop this type of loop executtes a code  block multiples times
+# “A for loop is used to iterate over a sequence like a list, tuple, string, or range.”
 
 # in foor loop each and every element will be looped and it will be eneded at data ends 
 
@@ -229,7 +262,7 @@
 #         print("drink water")
 #         water +=1
         
-# range function : it is used genrare a sequence pf number 
+# range function : it is used genrare a sequence  of number 
 # synrtax(start , stop , step)
 
 
@@ -240,7 +273,7 @@
 
 # transfer statemnts:  are also know as jumping statments 
 # # continue , pass, break 
-# are used to control the flow of program by jumping from one part of the code to another escpecially inside loop 
+# are used to change the  flow of program by jumping from one part of the code to another escpecially inside loop 
  
 # exit loop earlu 
 # skip the iteration do nothing is called a place holder 
@@ -275,7 +308,7 @@
 
 
 
-# indexing : means acces elements from a sequnec like string list tuple using their positions number
+# indexing : Indexing is the process of accessing elements from a sequence like a string, list, or tuple using their position number.”
 
 # they are divide into postive an negativ
 
@@ -441,6 +474,15 @@
 
 
 
+# In Python, collections like list, tuple, set, and dictionary support heterogeneous data, 
+# while strings store homogeneous character data.”
+
+
+
+
+# list, tuple, set, and dictionary are supoorted both 
+
+# string only  homogeneous data 
 
 
 # HOMOGENOUS : IT ALL THE ELEMENTS ARE SAME 
@@ -597,7 +639,7 @@
 
 # set is mutbale and it defined {} curely bracles and it is unorder list 
 # it doesnot accpet  duplicated values 
-# we cant perform indexing 
+# we can not  perform indexing 
 
 # but we can perform a concatention in the set with union operator 
 # set has 17 built in methods in python 
@@ -618,11 +660,7 @@
 
 # dict keys can be immutable 
 
-# dict values can be mutable , immutable   
+# dict values can be mutable , immutable  
 
 
 
-
-
-
-identifers
