@@ -663,4 +663,5 @@
 # dict values can be mutable , immutable  
 
 
-
+s = [1,2,3]
+print(s)
