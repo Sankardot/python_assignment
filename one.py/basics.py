@@ -663,5 +663,150 @@
 # dict values can be mutable , immutable  
 
 
-s = [1,2,3]
-print(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 1. Without Argument and Without Return
+# Even-Odd Program
+# def even_odd():
+#     n = int(input("Enter a number: "))
+
+#     if n % 2 == 0:
+#         print("Even Number")
+#     else:
+#         print("Odd Number")
+
+# even_odd()
+
+# function takes input inside itself and prints output directly without returning anything.
+
+
+
+
+
+
+
+
+# Without Argument and With Return
+# Even-Odd Program
+# def even_odd():
+#     n = int(input("Enter a number: "))
+
+#     if n % 2 == 0:
+#         return "Even Number"
+#     else:
+#         return "Odd Number"
+
+# result = even_odd()
+
+# print(result)
+
+# Function takes input inside itself and returns the result to be printed outside.
+
+
+
+
+
+
+
+# With Argument and Without Return
+# # Even-Odd Program
+# def even_odd(n):
+
+#     if n % 2 == 0:
+#         print("Even Number")
+#     else:
+#         print("Odd Number")
+
+# even_odd(10)
+# even_odd(7)
+
+# Function receives input while calling and prints output directly inside the function.
+
+
+
+
+
+# # With Argument and With Return
+# # Even-Odd Program
+# def even_odd(n):
+
+#     if n % 2 == 0:
+#         return "Even Number"
+#     else:
+#         return "Odd Number"
+
+# result = even_odd(8)
+
+# print(result)
+
+# Function receives input while calling and returns the result to be used or printed outside the function.
+
+
+
+
+
+
+
+
+# # Character is Vowel or Not
+# def check_vowel(ch):
+
+#     if ch.lower() in ['a', 'e', 'i', 'o', 'u']:
+#         print("Vowel")
+#     else:
+#         print("Not a Vowel")
+
+# check_vowel('a')
+# check_vowel('b')
+
+
+
+
+
+# # Alphabet or Not
+# def check_alphabet(ch):
+
+#     if ch.isalpha():
+#         print("It is an Alphabet")
+#     else:
+#         print("It is Not an Alphabet")
+
+# check_alphabet('A')
+# check_alphabet('5')
+
+
+
+# # Special Character or Not
+# def special_character(ch):
+
+#     if not ch.isalnum():
+#         print("Special Character")
+#     else:
+#         print("Not a Special Character")
+
+# special_character('@')
+# special_character('A')
+# special_character('5')
