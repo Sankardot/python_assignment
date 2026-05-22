@@ -688,8 +688,8 @@
 
 
 
-# 1. Without Argument and Without Return
-# Even-Odd Program
+# # 1. Without Argument and Without Return
+# # Even-Odd Program
 # def even_odd():
 #     n = int(input("Enter a number: "))
 
@@ -749,7 +749,7 @@
 
 
 
-# # With Argument and With Return
+# With Argument and With Return
 # # Even-Odd Program
 # def even_odd(n):
 
@@ -771,7 +771,7 @@
 
 
 
-# # Character is Vowel or Not
+# Character is Vowel or Not
 # def check_vowel(ch):
 
 #     if ch.lower() in ['a', 'e', 'i', 'o', 'u']:
@@ -810,3 +810,17 @@
 # special_character('@')
 # special_character('A')
 # special_character('5')
+
+
+
+
+
+
+
+# print() is used to display the output on the screen, 
+# Value is shown immediately
+# Does not send value back to the caller
+
+
+# return is used to send the value back from the function so it can be stored or reused later in the program.
+# Useful for further calculations
