@@ -1,21 +1,21 @@
-# # python  is dynamic programming language it is used fro development purpose and  for machine learning purpose 
+# python  is dynamic programming language it is used fro development purpose and  for machine learning purpose 
 
-# # invented by guido van rossum in 1991 
+# invented by guido van rossum in 1991 
 
-# # programming is the process of creating of set of instructions that tell a computer to perform a task 
+# programming is the process of creating of set of instructions that tell a computer to perform a task 
 
-# # coding is the step by step instructions that got computers to do what you want them to do 
+# coding is the step by step instructions that got computers to do what you want them to do 
 
 
-# # programiing = plan 
-# # coding = implementation 
+# programiing = plan 
+# coding = implementation 
 
-#“Python is mainly called an interpreted language because execution happens through the Python interpreter. 
-#But before execution, Python source code is compiled into bytecode.”
+# “Python is mainly called an interpreted language because execution happens through the Python interpreter. 
+# But before execution, Python source code is compiled into bytecode.”
 
 
 # # python is high level programming language 
-#“Python is an interpreted language, but internally it also uses compilation.”
+# “Python is an interpreted language, but internally it also uses compilation.”
 
 # complier converts the high level programming language to low level programming langugae such as machine code 
 
@@ -63,7 +63,7 @@
 
 
 
-#identifiers : “Identifiers are user-defined names given to variables, functions, classes, and objects in Python.”
+# identifiers : “Identifiers are user-defined names given to variables, functions, classes, and objects in Python.”
 
 # #rules:
 # Can contain letters, numbers, _
@@ -80,9 +80,9 @@
 
 
 
-#A function in Python is a block of code that performs a specific task and can be reused whenever needed.
+# A function in Python is a block of code that performs a specific task and can be reused whenever needed.
 
-#Instead of writing the same code again and again, you put it inside a function and call it whenever you want.
+# Instead of writing the same code again and again, you put it inside a function and call it whenever you want.
 
 # function :block of codde is called as a function 
 
@@ -114,7 +114,7 @@
 # we stored in memory of value it is called a address 
 
  
-#print("sankar")
+# print("sankar")
 
 
 # sankar = 20
@@ -369,7 +369,7 @@
 #         print("Invalid")
 
 
-#list compareshion is method of creating short and simple way to creata a list using single line code 
+# list compareshion is method of creating short and simple way to creata a list using single line code 
 
 # sqaure =[x*x for x in range(1,5)]
 # print(sqaure)
@@ -415,8 +415,8 @@
 
 
 # tuple is collection of elements sepated by comma and enclosed the parenthesis it is immutable 
-#count()
-#index()
+# count()
+# index()
 
 # mutable: it can be changed after creation 
 # dictnary, list , set 
@@ -627,8 +627,8 @@
 # tuple is collection os elements separted by comma and enclose with parenthesis 
 # it is immutable and and it has 2 methods and 
 # we can perforn indexing and it aloows duplicates 
-#it is oorder collection 
-##it is faster than list 
+# it is oorder collection 
+# #it is faster than list 
 
 
 # s = (1,23,3)
@@ -824,3 +824,199 @@
 
 # return is used to send the value back from the function so it can be stored or reused later in the program.
 # Useful for further calculations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Recursive function : a function calls itself agian and agian until a conditon is met
+# base condition is satisfied to solve a problem step by step.
+
+
+
+
+
+# factorial: factorial is a number is multiplication of that number with
+# all positive integer less than it up to 1. 
+
+
+
+
+
+
+# Factorial Using Recursion
+# def factorial(n):
+
+#     if n == 1:                        ---->base condition
+#         return 1
+
+#     return n * factorial(n - 1)        -------->recursive call
+
+# print(factorial(5))
+
+
+# # factorial without recursion:
+# def factorial(n):
+
+#     result = 1
+
+#     for i in range(1, n + 1):
+#         result = result * i
+
+#     return result
+
+# print(factorial(5))
+
+
+
+# Recursive
+
+# Problem is solved by:       Function calling itself.
+
+
+
+# Non-Recursive
+
+# Problem is solved by:        Repeating loop execution.
+
+
+
+
+
+
+
+
+
+
+
+
+# diff between the recursive non recursive function :
+    
+    
+# The main difference is that recursive functions solve problems by calling themselves repeatedly,
+# while non-recursive functions use loops for iteration without self-calling.
+
+# Uses of Recursion
+# Factorial
+# Fibonacci series
+# Tree traversal
+# Graph algorithms
+# Backtracking problems
+
+
+
+
+
+
+
+
+
+# Arguments: arguments are values passed to a function while calling it 
+
+# def add(a,b):
+#     print(a+b)
+# add(1,3)
+
+
+# a and b → Parameters
+# 10 and 20 → Arguments
+
+
+
+# types of arguments :
+
+# positional:  In Positional Argument during function call, Number of values passed must be same as no. 
+# of arguments defined in function defination
+    
+
+
+# def student(name, age):
+#     print(name, age)
+
+# student("Ram", 22)
+
+
+
+
+
+
+# # Keyword Arguments: Arguments passed using parameter names.
+#  During function call values are passed along with argument name
+
+
+# def student(name, age):
+#     print(name, age)
+# student(age=22, name="Ram")
+
+
+
+
+
+# # Default Arguments: Function already has default value.
+
+#  if an argument is assigned with a value then it is said to be default argument, 
+#  if we pass value to this argument it will be overridden otherwise it will take default value
+
+# def country(name="India"):
+#     print(name)
+
+# country()
+
+
+
+
+
+
+
+# Arbitrary Arguments in Python (*args)
+
+# Arbitrary arguments allow a function to accept multiple values as arguments.
+# It uses *args.
+# In Arbitary variable argument during function defination argument is prefixed with single *,
+# #     This argument takes 0 to n nummber of values and packs it in the form of Tuple
+
+# def numbers(*args):
+#     print(args)
+
+# numbers(10, 20, 30, 40)
+
+
+# def fun(*arg):
+#     print(arg, type(arg))
+    
+# fun(1,2,3,4,5)
+# fun()
+# fun('don','khan','iron man',100)
+
+
+# def agg(*args):
+#     print(sum(args))
+#     print(min(args))
+#     print(max(args))
+
+# agg(1,2,3,4,5)
+# agg(10,20,30,40)
+
+
+
+
+# Arbitrary Keyword arguments : accepts multiples keyword arguments 
+#     # During function defination argument will be prefixed with double *,
+#     # This argument takes 0 to n number of values and packs it in the form of dictionary
+    
+# def fun(**args):
+#     print(args,type(args))
+
+# fun(a=10,b=20)
+
+
+
