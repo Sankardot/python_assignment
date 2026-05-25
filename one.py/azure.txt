@@ -1,1 +1,198 @@
-ad
+AZURE was the cloud data platform it has 200plus servies  in 18 catgeories 
+
+it was invented by microsoft in 2010 and was invented by roy ozzie 
+
+
+devops = dev + ops 
+
+is a combination of development and operations a set  a princples and tolls that aim to 
+automate and integrate the process between software development and it operations 
+
+
+dev = writing, testing, building, the software
+
+ops = deploying, managing, montring, the software 
+
+
+
+
+
+before using deveops we are using the water fall model 
+
+requirrment analyis -->planing-> modeling->coding->testing->deployment 
+
+if any case the model fails need to develop the water fall moel 
+
+we use azile method in based in devops 
+
+
+
+
+
+
+cloud : it is a datastorage platform
+every cloud plat form works pay as u go model on this statment it will work 
+
+
+developres had deveopled application they store in server and deploy we can acces throw server any users can acces 
+
+we can acces the data throw he interntet throw the world 
+
+every application runs throw the cloud 
+
+
+
+
+
+cloud computing :
+means deleivering computing servies like servers, storage  , database, networking software analytics and aim
+over the internt instead of running them on your owm computer we run the on server 
+
+you just pay what u use
+earlier you nedded to buy a phyiscal server install maintain os
+now azure/aws and in minute we can get avirtual server online no hard ware 
+
+needed easy , scalable  , cost efficient 
+
+
+
+
+
+                             cloud computing 
+                                  |
+                                  |
+it is divded  inot 2 models they are
+
+service model                                                deploement model 
+saas, paas, iaas                                             public, private, hybrid, community 
+
+
+
+
+IAAS: infrastructure as servies
+application , data ,  runtimes , os ,midaware---->this are managed by the company 
+         visulatization , servers , stockage , reseau-> this are managed by vendor comapny 
+
+
+
+vendor company : the company provides the service to another company is callled vendor company 
+
+
+
+paas :platform as servies 
+
+application, data ------------>this is manged by company 
+ runtime, middleware, os, virtualisation, servers, stocakge, reseau ----> this are manged by vendor
+
+
+saas: software as servies  
+
+application. data, runtime, middleware, os , virtualisation, servers, stockage, reseau
+this are menged by vendor company 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+what is mean by onpremise server ;
+
+
+onpremise server :  server physically located in your company  data centers 
+company installed own servers store the data  of company 
+company owns hardware 
+location inside company building 
+managed by in house it team 
+ high upfront , cost,
+ availiability depends on local setup 
+
+
+
+
+
+
+what are cloud providers 
+azure , aws, gcp it is a time taking process for the company 
+so thay y they are the cloud providers 
+
+
+
+
+
+azure : it is cloud server sis virtual server that runs inside microsoft data centers managed through azure 
+
+micrososft data cnters 
+manged by microsoft team 
+ high availiability
+
+
+
+instead of buying a physical server 
+you can login into azure portal 
+creates a virtual  machines vm in minutes
+choose ram , cpu, os, and start using it  
+
+
+
+vm = azure cloud server 
+
+host company websites are application 
+run data bases ;ike sql, mysql
+perform analytics
+backup for disaster recovery 
+
+
+
+
+
+
+
+hybrid server : a hybrid server set up means we are using both 
+
+onpremise server + hybridserver 
+both are connected and work togther like one sysytem 
+this is callled hybrid enviormnet 
+ 
+
+ keeps customer confidential data on premise for security 
+ but stores backups and reports and azure cloud 
+
+
+
+
+virtualisation: it is s physical machine to run multiple  virtual machines
+
+imagine you have 16 gb ram and 
+
+vm1---> windoe
+vm2---> linux
+vm3--->data base
+
+
+
+
+deployment : a deployment model in cloud computing it defines how and where your cloud resorces 
+are deployed managed and accesed 
+
+theyare 4 types 
+
+publib, private, hybrid, community
+
+
